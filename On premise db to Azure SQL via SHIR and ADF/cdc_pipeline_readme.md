@@ -166,10 +166,4 @@ END;
 ---
 
 ## 📄 Credits
-
 Built and tested by Atharv Kulkarni using PostgreSQL, Azure SQL, and ADF with SHIR on Windows Server VM.
-
----
-
-Let me know if you'd like a diagram, GitHub project layout, or YAML template for deployment.
-
