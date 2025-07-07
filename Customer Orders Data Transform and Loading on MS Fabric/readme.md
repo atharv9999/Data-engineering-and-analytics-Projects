@@ -118,13 +118,6 @@ This matches the problem requirement:
 - ├── master_child/
 - └── h_ecom_order/
 
-- 📒 Notebook/
-- └── etl_customer_orders.ipynb
-
-- 📦 Pipeline/
-- └── DailyCustomerOrdersPipeline
-
-
 ---
 
 ## 🚀 Future Enhancements (Optional)
