@@ -106,4 +106,46 @@ This matches the problem requirement:
 ---
 
 ## 📂 Project Structure
+- 📁 Files/
+- ├── CUST_MSTR_20250701.csv
+- ├── CUST_MSTR_20250702.csv
+- ├── master_child_export-20250701.csv
+- ├── master_child_export-20250702.csv
+- └── H_ECOM_ORDER.csv
 
+- 📁 Tables/
+- ├── cust_mstr/
+- ├── master_child/
+- └── h_ecom_order/
+
+- 📒 Notebook/
+- └── etl_customer_orders.ipynb
+
+- 📦 Pipeline/
+- └── DailyCustomerOrdersPipeline
+
+
+---
+
+## 🚀 Future Enhancements (Optional)
+
+- Implement SCD Type 2 in Delta Lake using MERGE
+- Partition tables by `Date` for faster query
+- Add validation and row count checks after each load
+- Integrate Power BI or SQL Endpoint for reporting
+
+---
+
+## ✅ Status
+
+- [x] Data generation with Faker
+- [x] OneLake upload complete
+- [x] Delta tables created with correct schema
+- [x] Notebook working with truncate-load
+- [x] Pipeline scheduled on daily trigger
+
+---
+
+## Author
+- Atharv Kulkarni
+---
